@@ -23,3 +23,10 @@ axios.interceptors.response.use(res => {
     }
     return res.data
 })
+Vue.prototype.$url = function(url) {
+    if (url.startsWith('http')) {
+        return url
+    } else {
+        return axios.defaults.baseURL + url
+    }
+}

@@ -13,7 +13,18 @@ import {
     Menu,
     MenuItem,
     Submenu,
-    MenuItemGroup
+    MenuItemGroup,
+    Breadcrumb,
+    BreadcrumbItem,
+    Card,
+    Table,
+    TableColumn,
+    Pagination,
+    CheckboxGroup,
+    Checkbox,
+    Radio,
+    RadioGroup,
+    Upload
 } from 'element-ui'
 
 Vue.use(Button)
@@ -28,6 +39,17 @@ Vue.use(Menu)
 Vue.use(Submenu)
 Vue.use(MenuItem)
 Vue.use(MenuItemGroup)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Card)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Pagination)
+Vue.use(Checkbox)
+Vue.use(CheckboxGroup)
+Vue.use(Radio)
+Vue.use(RadioGroup)
+Vue.use(Upload)
     // 手动挂载
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
